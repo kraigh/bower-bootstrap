@@ -1,10 +1,12 @@
 {
-  "name": "project",
-  "version": "0.0.0",
-  "authors": [
-    "Kraig Hufstedler <kraigory@gmail.com>"
-  ],
-  "license": "MIT",
+  "name": "Zimride Mockup",
+  "description": "Mockup for new Zimride frontpage",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3",
+    "fontawesome": "~4.3.0",
+    "bowser": "~0.7.3"
+  },
   "private": true,
   "ignore": [
     "**/.*",
@@ -12,9 +14,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "fontawesome": "~4.2.0",
-    "bootstrap-sass-official": "~3.2.0"
-  }
+  ]
 }

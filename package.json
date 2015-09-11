@@ -1,9 +1,23 @@
 {
+  "title": "projectName",
+  "name": "projectName",
+  "version": "1.0.0",
+  "description": "description",
+  "license": {
+    "type": "MIT"
+  },
+  "private": true,
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-ruby-sass": "^0.7.1",
-    "gulp-notify": "^1.6.0",
-    "gulp-autoprefixer": "^1.0.0",
-    "gulp-bower": "0.0.6"
+    "bower": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-bower": "latest",
+    "gulp-concat": "latest",
+    "gulp-notify": "latest",
+    "gulp-ruby-sass": "latest",
+    "gulp-size": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "tmp": "latest"
   }
 }
